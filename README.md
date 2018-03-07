@@ -18,3 +18,7 @@ The tutorial for the 30-day challenge can be found [HERE!](https://github.com/we
 - JavaScript
 - CSS
 - HTML
+
+## Screenshot
+
+<img src="https://image.ibb.co/gH9LF7/dd_ss.png"/>
