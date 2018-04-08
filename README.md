@@ -1,10 +1,10 @@
 # Digidrum
 
+<img align="center" src="https://www.trendsmap.com/ipx/https://javascript30.com/images/JS3-social-share.png" width="300"/>
+
 ## Introduction :wave:
 
 Welcome to my repo for the Vanilla JS coding challenge, day 1!
-
-<img align="right" src="https://www.trendsmap.com/ipx/https://javascript30.com/images/JS3-social-share.png" width="250"/>
 
 My task was to create an interactive web interface for a playable drumkit - using events, keycodes, transformations, and transitions.
 

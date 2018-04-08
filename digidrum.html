@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+<DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>DigiDrum!</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
   </head>
     <body>
       <div class="keys">
@@ -55,23 +55,22 @@
         <audio data-key="76" src="sounds/tink.wav"></audio>
       <script>
         function playSound(e) {
-          const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`)
-          const key = document.querySelector(`.key[data-key="${e.keyCode}"]`)
-          if(!audio) return; // stops the function from running
-
-          key.classList.add('playing'); // applies css div "playing" to the key
-          audio.currentTime = 0; // rewind to the start of the loop each time key is pressed
-          audio.play(); // starts the audio loop when key is pressed
+          const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+          const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+          if (!audio) return; // stops the function from running
+            key.classList.add("playing"); // applies css div "playing" to the key
+            audio.currentTime = 0; // rewind to the start of the loop each time key is pressed
+            audio.play(); // starts the audio loop when key is pressed
         }
 
         function removeTransition(e) {
-          if(e.propertyName !== 'transform') return;
-          this.classList.remove('playing'); // removes the css div 'playing' from the current key
+          if (e.propertyName !== "transform") return;
+          this.classList.remove("playing"); // removes the css div 'playing' from the current key
         }
 
-        const keys = document.querySelectorAll('.key');
-        keys.forEach(key => key.addEventListener('transitionend', removeTransition));
-        window.addEventListener('keydown', playSound);
+        const keys = document.querySelectorAll(".key");
+        keys.forEach(key => key.addEventListener("transitionend", removeTransition));
+        window.addEventListener("keydown", playSound);
       </script>
     </body>
 </html>
