@@ -30,6 +30,6 @@ The tutorial for the 30-day challenge can be found [HERE!](https://github.com/we
 
 <hr>
 
-## Screenshot :camera:
+## Demo Reel :movie_camera:
 
-<img src="https://image.ibb.co/gH9LF7/dd_ss.png"/>
+[![DigiDrumClip](https://image.ibb.co/gH9LF7/dd_ss.png)](https://youtu.be/eV_9qYCNYuE "DigiDrum Demo Clip")
