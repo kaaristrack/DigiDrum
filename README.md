@@ -8,16 +8,16 @@ Welcome to my repo for the Vanilla JS coding challenge (day1)! My task was to cr
 
 The tutorial for the 30-day challenge can be found [HERE!](https://github.com/wesbos/JavaScript30)
 
-## Implementation
+## Installation
 
-- Please fork and clone this repository to your local host, (including img_dox).
-- Open digidrum.html in your browser of choice!
+- Please fork and clone this repository to your local host, (including the "public" folder).
+- Open digidrum.html in your browser of choice, and use the middle row of your keyboard to generate live drumkit sounds!
 
-## Languages Used
+## Tech Stack
 
-- JavaScript
-- CSS
-- HTML
+- Atom IDE.
+- Vanilla JavaScript.
+- CSS & HTML.
 
 ## Screenshot
 
